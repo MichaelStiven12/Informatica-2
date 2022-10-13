@@ -13,8 +13,8 @@ interfaz.imprimirNombre("Michael")
 
 interfaz.imprimirVariable("v", 5)
 
-logica.sumaDeTresNumeros(4,5,6)
+print(logica.sumaDeTresNumeros(4,5,6))
 
-logica.sumaDeNNumeros(4,5,7,8,4,3,2)
+print(logica.sumaDeNNumeros(4,5,7,8,4,3,2))
 
-logica.sumaDeDosListas([3,6,3,2],[6,2,1,6])
+print(logica.sumaDeDosListas([3,6,3,2],[6,2,1,6]))
