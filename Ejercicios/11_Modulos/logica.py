@@ -12,7 +12,7 @@ def sumaDeNNumeros(*numero):
         suman = suman + i
     print(suman)
 
-def sumaDeDosListas(lista1,lista2):
+def sumaDeDosListas(lista1,lista2): #Notación camel - case
     listasSumadas = []
     for i in range(0,len(lista1)):
         sumal = lista1[i] + lista2[i]
