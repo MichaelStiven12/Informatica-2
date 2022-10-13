@@ -1,4 +1,5 @@
-cadena = "holamundocruel"
+'''
+cadena = "hola mundo cruel"
 
 #Extrae el primer elemento
 print(cadena[0])
@@ -13,18 +14,20 @@ print(cadena[6]+cadena[7])
 
 
 #Metodos de las listas 
-
+'''
 #Metodos inplace, no se imprime pero si realiza un cambio en la lista
 
 lista = [1, "a", 2, 3, "b"]
 
-print(lista.append("1000"))
-print(lista.append(10))
+lista.append(10)
+print(lista)
 
-print(lista.pop(1))
-print(lista.pop(4))
+lista.pop(4)
+print(lista)
 
+lista.insert(3,8)
+print(lista)
 
-
-
+d = lista[0:3:1]
+print(d)
 
